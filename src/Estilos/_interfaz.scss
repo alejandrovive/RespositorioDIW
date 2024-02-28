@@ -1,0 +1,36 @@
+@import "colores";
+@import "fuentes";
+
+.title {
+    @include fuente-titulos;
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.text {
+    @include fuente-texto;
+
+}
+
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .hero-content {
+    position: relative;
+  }
+  
+ 
+  
+  .hero-image {
+    width: 100em; 
+    max-height: 700px;
+  }
+  

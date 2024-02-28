@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Nanum+Gothic&family=Oswald:wght@200..700&display=swap');
+@import "colores";
+
+$titles : 'Oswald', serif;
+$titles-size : 6em;
+$subtitles-size: 3em;
+$h3-size:1.5em;
+$text-size:1em;
+
+
+
+@mixin fuente-brand {
+  font-family: $titles;
+  font-size: $titles-size;
+  color: $color-primario5;
+}
+
+
+@mixin fuente-titulos {
+    font-family: $titles;
+    font-size: $titles-size;
+    color: $color-primario5;
+    letter-spacing: 10px;
+
+  }
+  
+  @mixin fuente-subtitulos {
+    font-family: $titles;
+    font-size: $subtitles-size;
+    color : $color-primario5;
+  }
+
+   
+  @mixin fuente-h3 {
+    font-family: $titles;
+    font-size: $h3-size;
+    color : $color-primario5;
+  }
+
+
+      
+  @mixin fuente-texto {
+    font-family: $titles;
+    font-size: $text-size;
+  }

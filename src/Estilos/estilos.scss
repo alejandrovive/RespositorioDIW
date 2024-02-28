@@ -1,0 +1,9 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "colores";
+@import "menu";
+@import "interfaz";
+@import "fuentes";
+@import "footer";
+body{
+    background-color: $color-primario4;
+}

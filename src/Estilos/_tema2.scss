@@ -1,0 +1,41 @@
+@import "colores";
+@import "fuentes";
+
+.subtitle {
+    @include fuente-subtitulos;
+}
+
+.h3{
+  
+  @include fuente-h3;
+
+}
+
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta la altura del contenedor al 100% del viewport */
+}
+
+.card-small {
+  width: 80%; /* Cambia el ancho de la tarjeta */
+  margin: 0 auto; /* Centra la tarjeta horizontalmente */
+  max-width: 600px; /* Ajusta el ancho máximo de la tarjeta */
+}
+
+.card-image {
+  width: 100%; /* La imagen ocupa el ancho completo del Card */
+}
+
+.button-container {
+  position: absolute; /* Posicionamiento absoluto para el botón */
+  bottom: 10px; /* Posiciona el botón 10px desde la parte inferior */
+  right: 10px; /* Posiciona el botón a la derecha */
+}
+
+.btn-right {
+  float: right; 
+}
+
